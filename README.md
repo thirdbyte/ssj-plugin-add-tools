@@ -5,6 +5,6 @@ Once the [installation](https://github.com/thirdbyte/ssj#installation) is comple
 1. `git clone https://github.com/thirdbyte/ssj-plugin-add-tools`
 2. `cd ssj-plugin-add-tools`
 3. `chmod +x build`
-4. Edit the `tools.txt` file and list all the tools, one in a line, that you want to add or install on top of SSJ
+4. Edit the `tools.txt` file and list all the tools, one in a line, that you want to add
 5. `./build`
 

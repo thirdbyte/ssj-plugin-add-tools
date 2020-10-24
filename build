@@ -1,9 +1,9 @@
-echo "[*] Rebuilding SSJ. This will take some time. Be patient."
-docker build -t ssj:latest . &>ssj-build.log
+echo "[*] Adding Kaioken to SSJ. This will take some time. Be patient."
+docker build -t ssj:latest . &>log.txt
 
-if grep -q "Successfully tagged" ssj-build.log
+if grep -q "Successfully tagged" log.txt
 then
-   echo "[+] Build succeeded."
+   echo "[+] Success."
 else
-   echo "[-] Build failed. Check ssj-build.log."
+   echo "[-] Failed. Check log.txt."
 fi

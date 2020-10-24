@@ -4,7 +4,7 @@ A convenient script that lets you add more tools to [SSJ](https://github.com/thi
 Once the [installation](https://github.com/thirdbyte/ssj#installation) is completed, follow the below steps:
 1. `git clone https://github.com/thirdbyte/ssj-plugin-add-tools`
 2. `cd ssj-plugin-add-tools`
-3. `chmod +x build`
+3. `chmod +x add-tools`
 4. Edit the `tools.txt` file and list all the tools, one in a line, that you want to add
-5. `./build`
+5. `./add-tools`
 

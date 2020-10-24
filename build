@@ -1,0 +1,9 @@
+echo "[*] Rebuilding SSJ. This will take some time. Be patient."
+docker build -t ssj:latest . &>ssj-build.log
+
+if grep -q "Successfully tagged" ssj-build.log
+then
+   echo "[+] Build succeeded."
+else
+   echo "[-] Build failed. Check ssj-build.log."
+fi

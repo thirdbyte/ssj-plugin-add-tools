@@ -1,9 +1,1 @@
-echo "[*] Adding Kaioken to SSJ. This will take some time. Be patient."
-docker build -t ssj:latest . &>log.txt
-
-if grep -q "Successfully tagged" log.txt
-then
-   echo "[+] Success."
-else
-   echo "[-] Failed. Check log.txt."
-fi
+docker build -t ssj:latest .

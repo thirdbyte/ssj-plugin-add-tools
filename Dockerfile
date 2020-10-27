@@ -1,4 +1,4 @@
-FROM ssj:latest
+FROM scarfaced/ssj:latest
 
 COPY tools.txt /tmp/
 RUN apt-get -y update && apt-get -y dist-upgrade && \

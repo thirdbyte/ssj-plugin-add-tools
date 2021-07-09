@@ -6,4 +6,4 @@ RUN apt-get -y update && apt-get -y dist-upgrade && \
    apt-get -y autoremove && apt-get -y clean && \
    rm -rf /var/lib/apt/lists/* && rm -rf /tmp/tools.txt
 
-CMD ["/bin/bash"]
+CMD ["/usr/bin/terminator"]
